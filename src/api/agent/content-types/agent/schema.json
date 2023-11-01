@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agents",
+  "info": {
+    "singularName": "agent",
+    "pluralName": "agents",
+    "displayName": "agent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "UserName": {
+      "type": "string"
+    },
+    "HashPassword": {
+      "type": "text"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Role": {
+      "type": "text"
+    },
+    "eMail": {
+      "type": "string"
+    },
+    "PhoneNumber": {
+      "type": "string"
+    },
+    "PreferredContactMethod": {
+      "type": "string"
+    },
+    "SignUpMethod": {
+      "type": "string"
+    },
+    "ProfilePic": {
+      "type": "text"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "DateTiemOfJoining": {
+      "type": "string"
+    }
+  }
+}
